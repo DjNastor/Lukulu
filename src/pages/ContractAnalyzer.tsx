@@ -1,18 +1,5 @@
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import {
-  UploadIcon,
-  FileTextIcon,
-  AlertTriangleIcon,
-  CheckCircleIcon,
-  InfoIcon,
-  ShieldCheckIcon } from
-'lucide-react';
-import { Page } from '../components/Navbar';
-interface ContractAnalyzerProps {
-  setPage: (page: Page) => void;
-}
-export function ContractAnalyzer({ setPage }: ContractAnalyzerProps) {
+export function ContractAnalyzer() {
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [showResults, setShowResults] = useState(false);
   const [language, setLanguage] = useState('English');
