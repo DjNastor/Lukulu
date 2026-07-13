@@ -1,5 +1,5 @@
-Fix Vite entry point: use main.tsx instead of index.tsx
+Link Vercel project to lukulu-hub domain
 
-Resolves DEPLOYMENT_NOT_FOUND error by properly configuring the entry point for Vite. The browser cannot execute TypeScript directly; it must go through Vite's build process.
+App is now live at https://lukulu-hub.vercel.app
 
 Co-authored-by: Copilot App <223556219+Copilot@users.noreply.github.com>
